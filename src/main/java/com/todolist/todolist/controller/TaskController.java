@@ -1,10 +1,7 @@
 package com.todolist.todolist.controller;
 
-import com.google.gson.JsonObject;
 import com.todolist.todolist.models.Task;
 import com.todolist.todolist.services.TaskService;
-import jakarta.validation.Valid;
-import org.apache.tomcat.util.json.JSONParser;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
